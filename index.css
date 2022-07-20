@@ -1,0 +1,407 @@
+:root{
+    --primary-light-red: hsl(356, 100%, 66%);
+    --primary-very-light-red: hsl(355, 100%, 74%);
+    --primary-dark-lightblue: hsl(208, 49%, 24%);
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-grayish-blue: hsl(240, 2%, 79%);
+    --neutral-very-dark-grayish-blue: hsl(207, 13%, 34%);
+    --neutral-very-dark-blue: hsl(240, 10%, 16%);
+    --ubuntu-fonts: 'Ubuntu', sans-serif;
+    --overpass-fonts: 'Overpass', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--ubuntu-fonts);
+    overflow-x: hidden;
+    
+}
+h1 {
+    display: inline-block;
+    font-family: var(--ubuntu-fonts);
+    font-weight: 700;
+    color: var(--neutral-white);
+    font-size: 3.75rem;
+
+}
+ul {
+    margin: 5.313rem 1.25rem 0;
+    display: inline-block;
+    font-family: var(--ubuntu-fonts);
+    color: var(--neutral-white);
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 1.12rem;
+    opacity: 0.7;
+}
+li {
+    text-decoration: none;
+    display: inline-block;
+}
+.mainSectionDivision {
+    height: 100vh;
+    width: 100%;
+
+}
+.sectionContainer {
+    width: auto;
+    height: 80vh;
+    background-image: url("images/bg-pattern-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position-x: -28.12rem;
+    background-position-y: -112.5rem;
+
+}
+.sectionBackgroundContainer {
+    background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-radius: 0 0 0 9.37rem;
+}
+.attribution { font-size: 0.68rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.loginSignupContainer {
+    margin-left: 43.75rem;
+    height: 6.25rem;
+    width: 15.62rem;
+    margin-top: 3.75rem;
+    text-align: center;
+    display: inline-block;
+}
+.navContainer {
+    display: flex;
+    padding-top: 1.87rem;
+    margin: 0 14.37rem;
+    width: 100%;
+}
+.login {
+    border: none;
+    color: var(--neutral-white);
+    background-color: transparent;
+    font-family: var(--overpass-fonts);
+    font-weight: 400;
+    font-size: 1.12rem;
+    margin-right: 2.18rem;
+}
+.signup {
+    background-color: white;
+    border: none;
+    border-radius: 3.12rem;
+    font-size: 1.25rem;
+    padding: 0.93rem;
+    width: 9.37rem;
+    font-family: var(--overpass-fonts);
+    color: var(--primary-light-red);
+    font-weight: 900;
+}
+.productArrow {
+    position: absolute;
+    margin: -0.43rem 0.62rem 0;
+    display: inline-block;
+}
+.companyArrow {
+    position: absolute;
+    margin: -0.43rem 0.62rem 0;
+    display: inline-block;
+}
+.connectArrow {
+    position: absolute;
+    margin: -0.43rem  0.62rem 0;
+    display: inline-block;
+}
+.slogan {
+    display: flex;
+    justify-content: center;
+    line-height: 1.5rem;
+    text-align: center;
+}
+.sloganH1 {
+    font-size: 5rem;
+    font-weight: 500;
+}
+.sloganH2 {
+        font-weight: 300;
+        color: var(--neutral-white);
+        opacity: 0.9;
+}
+.learnstartcontainer {
+    position: absolute;
+    bottom: 280.92px;
+    left: 53.12rem;
+}
+.learn {
+    border: 0.063rem solid white;
+    padding: 0.93rem;
+    width: 10rem;
+    border-radius: 2.5rem;
+    background-color: transparent;
+    color: white;
+    font-family: var(--overpass-fonts);
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin-left: 1.25rem;
+}
+.free {
+    border-radius: 2.5rem;
+    background-color: white;
+    border: none;
+    font-weight: 900;
+    color: var(--primary-light-red);
+    padding: 0.93rem;
+    width: 10rem;
+    font-size: 1.25rem;
+    margin-right: 1.25rem;
+    font-family: var(--overpass-fonts);
+
+}
+
+/* SECOND DIVISION CODES */
+
+.secondDivision {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textContainer h1{
+ color: var(--primary-dark-lightblue);
+ font-size: 2.81rem;
+ margin-left: 35%;
+ position: absolute;
+ display: block;
+ font-weight: 500;
+}
+.textContainer p {
+    display: absolute;
+}
+.illustrationImage {
+    size: 160%;
+}
+.secondDivisionContent {
+    height: 40.62rem;
+    width: 40.62rem;
+    margin-left: 9.37rem;
+}
+.secondDivisionContent h2 {
+    font-family: var(--overpass-fonts);
+    color: var(--primary-dark-lightblue);
+    font-size: 2.18rem;
+    font-weight: 600;
+}
+.secondDivisionContent p {
+    font-family: var(--overpass-fonts);
+    font-weight: 300;
+    line-height: 3rem;
+    font-size: 1.25rem;
+    color: var(--neutral-very-dark-grayish-blue);
+}
+.thirdContainer {
+    height: 60vh;
+    width: 100%;
+    border-radius: 0 0 0 9.37rem;
+}
+.imageCellphoneHolder {
+    padding-top: 9.37rem;
+    height: 20rem;
+    width: 100%;
+    background-color: hsl(237, 17%, 21%);
+    background-position: -31.87rem 0 0 0;
+}
+.cellphone {
+    width: 40.62rem;
+    position: relative;
+    left: 9.37rem;
+    top: -14.37rem;
+}
+.circlePattern {
+    position: absolute;
+    height: auto;
+    width: auto;
+}
+.imageCellphoneHolder {
+    display: inline-block;
+    background-image: url("images/bg-pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position:-10.31rem -26.87rem;
+    border-radius: 0 9.375rem 0 9.375rem;
+}
+.contentStateOfTheArt {
+    margin-top: -5.125rem;
+    margin-left: 25rem;
+    display: inline-block;
+    position: absolute;
+    height: 29.37rem;
+    width: 46.8rem;
+    color: var(--neutral-white);
+}
+.contentStateOfTheArt h1{
+    font-weight: 600;
+    font-size: 3.12rem;
+    color: white;
+    font-family: var(--overpass-fonts);
+}
+.contentStateOfTheArt p{
+    margin-top: -0.625rem;
+    color: var(--neutral-white);
+    font-size: 1.25rem;
+    font-weight:lighter;
+    line-height: 2.5rem;
+}
+.fourthContainer {
+    height: 110vh;
+    width: 100%;
+    margin-bottom: 150px;
+
+}
+.laptopContainer .laptop {
+    width: 81.25rem;
+    position: absolute;
+    left: -23.12rem;
+    
+}
+.contentFreeOpenSimple {
+    margin-top: 12.5rem;
+    margin-left: 68.75rem;
+    position: absolute;
+    width: 35%;
+    height: 31.25rem;
+    position: flex;
+}
+.contentFreeOpenSimple h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--primary-dark-lightblue)
+}
+.contentFreeOpenSimple p{
+    font-weight: 100;
+    font-family: var(--overpass-fonts);
+    color: var(--primary-dark-lightblue);
+    line-height: 2.5rem;
+    font-size: 1.37rem;
+}
+.footerSection {
+    width: 100%;
+    height: 25.25rem;
+    background-color: var(--neutral-very-dark-blue);
+}
+/* END OF SECOND DIVISION CODES */
+
+/* START OF FOOTER CONTENT*/
+.footerContent h2 {
+    display: inline-block;
+}
+/* START OF MENU DROPDOWN MENU CODES*/
+
+#productMenu {
+    color: white;
+    font-family: var(--overpass-fonts);
+    width: 110px;
+    height: 195px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 15px;
+    line-height: 2.5rem;
+}
+#companyMenu {
+    color: black;
+    background-color: none;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    line-height: 2.5rem;
+    margin-left: -150px;
+    margin-top: 30px;
+    opacity: 1;
+}
+#companyMenu li {
+    display: list-item;
+}
+#connectMenu {
+    color: white;
+    font-family: var(--overpass-fonts);
+    width: 110px;
+    height: 195px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 35px;
+    line-height: 2.5rem;
+    margin-left: -175px;
+}
+.productFooter {
+    width: 200px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 350px;
+    position: absolute;
+    display: inline-block;
+}
+.footerSection h1 {
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.productFooter h3 {
+    margin: 0;
+    margin-left: 60px;
+}
+.productFooter li {
+    display: list-item;
+    line-height: 2rem;
+    font-size: 15px;
+    margin: 0;
+    font-weight: 300;
+}
+.productFooter ul {
+    margin-top: 30px;
+}
+
+.companyFooter {
+    width: 200px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 750px;
+    position: absolute;
+    display: inline-block;
+}
+.companyFooter h3 {
+    margin: 0;
+    margin-left: 60px;
+}
+.companyFooter li {
+    display: list-item;
+    line-height: 2rem;
+    font-size: 15px;
+    margin: 0;
+    font-weight: 300;
+}
+.companyFooter ul {
+    margin-top: 30px;
+}
+
+.connectFooter {
+    width: 200px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 1150px;
+    position: absolute;
+    display: inline-block;
+}
+.connectFooter h3 {
+    margin: 0;
+    margin-left: 60px;
+}
+.connectFooter li {
+    display: list-item;
+    line-height: 2rem;
+    font-size: 15px;
+    margin: 0;
+    font-weight: 300;
+}
+.connectFooter ul {
+    margin-top: 30px;
+}
+/* END OF START OF MENU DROPDOWN MENU CODES*/
